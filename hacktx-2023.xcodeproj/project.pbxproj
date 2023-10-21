@@ -108,6 +108,7 @@
 				178DD5292AE460BC009E20AF /* AppDelegate.swift */,
 				178DD52B2AE460BC009E20AF /* SceneDelegate.swift */,
 				178DD52D2AE460BC009E20AF /* OnboardingViewController.swift */,
+				17D90F782AE46ED800652E18 /* Data Structures */,
 				17D90F732AE4672C00652E18 /* Tabs */,
 				178DD52F2AE460BC009E20AF /* Main.storyboard */,
 				178DD5322AE460BD009E20AF /* Assets.xcassets */,
@@ -137,11 +138,42 @@
 		17D90F732AE4672C00652E18 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */,
-				17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */,
-				17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */,
+				17D90F742AE46EA300652E18 /* FeedTab */,
+				17D90F752AE46EAC00652E18 /* ProfileTab */,
+				17D90F772AE46EC500652E18 /* DiscoverTab */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		17D90F742AE46EA300652E18 /* FeedTab */ = {
+			isa = PBXGroup;
+			children = (
+				17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */,
+			);
+			path = FeedTab;
+			sourceTree = "<group>";
+		};
+		17D90F752AE46EAC00652E18 /* ProfileTab */ = {
+			isa = PBXGroup;
+			children = (
+				17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */,
+			);
+			path = ProfileTab;
+			sourceTree = "<group>";
+		};
+		17D90F772AE46EC500652E18 /* DiscoverTab */ = {
+			isa = PBXGroup;
+			children = (
+				17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */,
+			);
+			path = DiscoverTab;
+			sourceTree = "<group>";
+		};
+		17D90F782AE46ED800652E18 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
