@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		178DD52A2AE460BC009E20AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD5292AE460BC009E20AF /* AppDelegate.swift */; };
 		178DD52C2AE460BC009E20AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD52B2AE460BC009E20AF /* SceneDelegate.swift */; };
-		178DD52E2AE460BC009E20AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD52D2AE460BC009E20AF /* ViewController.swift */; };
+		178DD52E2AE460BC009E20AF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD52D2AE460BC009E20AF /* OnboardingViewController.swift */; };
 		178DD5312AE460BC009E20AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DD52F2AE460BC009E20AF /* Main.storyboard */; };
 		178DD5332AE460BD009E20AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178DD5322AE460BD009E20AF /* Assets.xcassets */; };
 		178DD5362AE460BD009E20AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DD5342AE460BD009E20AF /* LaunchScreen.storyboard */; };
 		178DD5412AE460BD009E20AF /* hacktx_2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD5402AE460BD009E20AF /* hacktx_2023Tests.swift */; };
 		178DD54B2AE460BD009E20AF /* hacktx_2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD54A2AE460BD009E20AF /* hacktx_2023UITests.swift */; };
 		178DD54D2AE460BD009E20AF /* hacktx_2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DD54C2AE460BD009E20AF /* hacktx_2023UITestsLaunchTests.swift */; };
+		17D90F6E2AE464C100652E18 /* FeedTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */; };
+		17D90F702AE4671100652E18 /* DiscoverTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */; };
+		17D90F722AE4671E00652E18 /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		178DD5262AE460BC009E20AF /* hacktx-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hacktx-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178DD5292AE460BC009E20AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178DD52B2AE460BC009E20AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		178DD52D2AE460BC009E20AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178DD52D2AE460BC009E20AF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		178DD5302AE460BC009E20AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		178DD5322AE460BD009E20AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178DD5352AE460BD009E20AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		178DD5462AE460BD009E20AF /* hacktx-2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hacktx-2023UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178DD54A2AE460BD009E20AF /* hacktx_2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hacktx_2023UITests.swift; sourceTree = "<group>"; };
 		178DD54C2AE460BD009E20AF /* hacktx_2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hacktx_2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabViewController.swift; sourceTree = "<group>"; };
+		17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTabViewController.swift; sourceTree = "<group>"; };
+		17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,8 @@
 			children = (
 				178DD5292AE460BC009E20AF /* AppDelegate.swift */,
 				178DD52B2AE460BC009E20AF /* SceneDelegate.swift */,
-				178DD52D2AE460BC009E20AF /* ViewController.swift */,
+				178DD52D2AE460BC009E20AF /* OnboardingViewController.swift */,
+				17D90F732AE4672C00652E18 /* Tabs */,
 				178DD52F2AE460BC009E20AF /* Main.storyboard */,
 				178DD5322AE460BD009E20AF /* Assets.xcassets */,
 				178DD5342AE460BD009E20AF /* LaunchScreen.storyboard */,
@@ -125,6 +132,16 @@
 				178DD54C2AE460BD009E20AF /* hacktx_2023UITestsLaunchTests.swift */,
 			);
 			path = "hacktx-2023UITests";
+			sourceTree = "<group>";
+		};
+		17D90F732AE4672C00652E18 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */,
+				17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */,
+				17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178DD52E2AE460BC009E20AF /* ViewController.swift in Sources */,
+				17D90F702AE4671100652E18 /* DiscoverTabViewController.swift in Sources */,
+				17D90F6E2AE464C100652E18 /* FeedTabViewController.swift in Sources */,
+				17D90F722AE4671E00652E18 /* ProfileTabViewController.swift in Sources */,
+				178DD52E2AE460BC009E20AF /* OnboardingViewController.swift in Sources */,
 				178DD52A2AE460BC009E20AF /* AppDelegate.swift in Sources */,
 				178DD52C2AE460BC009E20AF /* SceneDelegate.swift in Sources */,
 			);
