@@ -34,7 +34,7 @@
             </objects>
             <point key="canvasLocation" x="-720" y="-123"/>
         </scene>
-        <!--Item-->
+        <!--Feed-->
         <scene sceneID="Vu9-mi-IRp">
             <objects>
                 <viewController id="Q4Y-xL-bEL" customClass="FeedTabViewController" customModule="hacktx_2023" customModuleProvider="target" sceneMemberID="viewController">
@@ -44,13 +44,13 @@
                         <viewLayoutGuide key="safeArea" id="Zhp-fd-etF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bzL-3o-5hf"/>
+                    <tabBarItem key="tabBarItem" title="Feed" selectedImage="house.fill" catalog="system" id="bzL-3o-5hf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Voy-8P-45k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1463" y="-851"/>
         </scene>
-        <!--Item-->
+        <!--Browse-->
         <scene sceneID="Q5e-ff-ZoB">
             <objects>
                 <viewController id="GAi-Gb-gmH" customClass="DiscoverTabViewController" customModule="hacktx_2023" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,13 +60,13 @@
                         <viewLayoutGuide key="safeArea" id="Nrh-49-qZY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="9xC-nw-c6O"/>
+                    <tabBarItem key="tabBarItem" title="Browse" selectedImage="magnifyingglass" catalog="system" id="9xC-nw-c6O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAx-mu-Nvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1463" y="-193"/>
         </scene>
-        <!--Item-->
+        <!--Me-->
         <scene sceneID="GRY-Y2-d5B">
             <objects>
                 <viewController id="Pta-BE-NdC" customClass="ProfileTabViewController" customModule="hacktx_2023" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,7 +76,7 @@
                         <viewLayoutGuide key="safeArea" id="MjA-fR-QYB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="cPE-bd-5f0"/>
+                    <tabBarItem key="tabBarItem" title="Me" selectedImage="person.fill" catalog="system" id="cPE-bd-5f0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Sh-mm-1uk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,6 +103,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

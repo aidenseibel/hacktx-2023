@@ -26,6 +26,7 @@
 		17D90F832AE4729B00652E18 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F822AE4729B00652E18 /* Department.swift */; };
 		17D90F862AE4784200652E18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F852AE4784200652E18 /* CardView.swift */; };
 		17D90F882AE4799400652E18 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F872AE4799400652E18 /* SampleData.swift */; };
+		17D90F8A2AE4855A00652E18 /* DepartmentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F892AE4855A00652E18 /* DepartmentCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		17D90F822AE4729B00652E18 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 		17D90F852AE4784200652E18 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		17D90F872AE4799400652E18 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		17D90F892AE4855A00652E18 /* DepartmentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				17D90F852AE4784200652E18 /* CardView.swift */,
+				17D90F892AE4855A00652E18 /* DepartmentCellView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				17D90F7F2AE470A700652E18 /* User.swift in Sources */,
 				17D90F832AE4729B00652E18 /* Department.swift in Sources */,
 				17D90F882AE4799400652E18 /* SampleData.swift in Sources */,
+				17D90F8A2AE4855A00652E18 /* DepartmentCellView.swift in Sources */,
 				178DD52E2AE460BC009E20AF /* OnboardingViewController.swift in Sources */,
 				178DD52A2AE460BC009E20AF /* AppDelegate.swift in Sources */,
 				178DD52C2AE460BC009E20AF /* SceneDelegate.swift in Sources */,
