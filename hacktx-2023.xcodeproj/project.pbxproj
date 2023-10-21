@@ -19,6 +19,11 @@
 		17D90F6E2AE464C100652E18 /* FeedTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */; };
 		17D90F702AE4671100652E18 /* DiscoverTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */; };
 		17D90F722AE4671E00652E18 /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */; };
+		17D90F7A2AE46FC500652E18 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F792AE46FC500652E18 /* Card.swift */; };
+		17D90F7C2AE4705B00652E18 /* ResearchGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F7B2AE4705B00652E18 /* ResearchGroup.swift */; };
+		17D90F7F2AE470A700652E18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F7E2AE470A700652E18 /* User.swift */; };
+		17D90F812AE470FC00652E18 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F802AE470FC00652E18 /* University.swift */; };
+		17D90F832AE4729B00652E18 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F822AE4729B00652E18 /* Department.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		17D90F6D2AE464C100652E18 /* FeedTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabViewController.swift; sourceTree = "<group>"; };
 		17D90F6F2AE4671100652E18 /* DiscoverTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTabViewController.swift; sourceTree = "<group>"; };
 		17D90F712AE4671E00652E18 /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
+		17D90F792AE46FC500652E18 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		17D90F7B2AE4705B00652E18 /* ResearchGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchGroup.swift; sourceTree = "<group>"; };
+		17D90F7E2AE470A700652E18 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		17D90F802AE470FC00652E18 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		17D90F822AE4729B00652E18 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,11 @@
 		17D90F782AE46ED800652E18 /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				17D90F802AE470FC00652E18 /* University.swift */,
+				17D90F822AE4729B00652E18 /* Department.swift */,
+				17D90F7B2AE4705B00652E18 /* ResearchGroup.swift */,
+				17D90F7E2AE470A700652E18 /* User.swift */,
+				17D90F792AE46FC500652E18 /* Card.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -307,12 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D90F7C2AE4705B00652E18 /* ResearchGroup.swift in Sources */,
 				17D90F702AE4671100652E18 /* DiscoverTabViewController.swift in Sources */,
 				17D90F6E2AE464C100652E18 /* FeedTabViewController.swift in Sources */,
+				17D90F7A2AE46FC500652E18 /* Card.swift in Sources */,
 				17D90F722AE4671E00652E18 /* ProfileTabViewController.swift in Sources */,
+				17D90F7F2AE470A700652E18 /* User.swift in Sources */,
+				17D90F832AE4729B00652E18 /* Department.swift in Sources */,
 				178DD52E2AE460BC009E20AF /* OnboardingViewController.swift in Sources */,
 				178DD52A2AE460BC009E20AF /* AppDelegate.swift in Sources */,
 				178DD52C2AE460BC009E20AF /* SceneDelegate.swift in Sources */,
+				17D90F812AE470FC00652E18 /* University.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
