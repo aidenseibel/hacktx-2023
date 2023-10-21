@@ -15,9 +15,8 @@ struct Department: Identifiable, Hashable, Equatable {
 
     var id = UUID()
     
-    var name, description: String
+    var name: String
     var university: University
-    var departments: [Department]
     var researchGroups: [ResearchGroup]
     var followers: [User]
     

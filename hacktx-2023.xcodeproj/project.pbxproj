@@ -24,6 +24,8 @@
 		17D90F7F2AE470A700652E18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F7E2AE470A700652E18 /* User.swift */; };
 		17D90F812AE470FC00652E18 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F802AE470FC00652E18 /* University.swift */; };
 		17D90F832AE4729B00652E18 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F822AE4729B00652E18 /* Department.swift */; };
+		17D90F862AE4784200652E18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F852AE4784200652E18 /* CardView.swift */; };
+		17D90F882AE4799400652E18 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90F872AE4799400652E18 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		17D90F7E2AE470A700652E18 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		17D90F802AE470FC00652E18 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
 		17D90F822AE4729B00652E18 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		17D90F852AE4784200652E18 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		17D90F872AE4799400652E18 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				178DD5292AE460BC009E20AF /* AppDelegate.swift */,
 				178DD52B2AE460BC009E20AF /* SceneDelegate.swift */,
 				178DD52D2AE460BC009E20AF /* OnboardingViewController.swift */,
+				17D90F842AE4783400652E18 /* Components */,
 				17D90F782AE46ED800652E18 /* Data Structures */,
 				17D90F732AE4672C00652E18 /* Tabs */,
 				178DD52F2AE460BC009E20AF /* Main.storyboard */,
@@ -187,8 +192,17 @@
 				17D90F7B2AE4705B00652E18 /* ResearchGroup.swift */,
 				17D90F7E2AE470A700652E18 /* User.swift */,
 				17D90F792AE46FC500652E18 /* Card.swift */,
+				17D90F872AE4799400652E18 /* SampleData.swift */,
 			);
 			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		17D90F842AE4783400652E18 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				17D90F852AE4784200652E18 /* CardView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,9 +343,11 @@
 				17D90F722AE4671E00652E18 /* ProfileTabViewController.swift in Sources */,
 				17D90F7F2AE470A700652E18 /* User.swift in Sources */,
 				17D90F832AE4729B00652E18 /* Department.swift in Sources */,
+				17D90F882AE4799400652E18 /* SampleData.swift in Sources */,
 				178DD52E2AE460BC009E20AF /* OnboardingViewController.swift in Sources */,
 				178DD52A2AE460BC009E20AF /* AppDelegate.swift in Sources */,
 				178DD52C2AE460BC009E20AF /* SceneDelegate.swift in Sources */,
+				17D90F862AE4784200652E18 /* CardView.swift in Sources */,
 				17D90F812AE470FC00652E18 /* University.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
